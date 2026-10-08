@@ -1,0 +1,103 @@
+{
+  "weights": {
+    "baseline": 0.25,
+    "bilstm": 0.25,
+    "klue": 0.5
+  },
+  "v5_전체": {
+    "n": 92,
+    "type_acc": 0.8913043478260869,
+    "urg_acc": 0.8695652173913043,
+    "both_acc": 0.782608695652174,
+    "urgent_recall": 0.8484848484848485,
+    "false_alarm": 4
+  },
+  "v5_gpt": {
+    "n": 36,
+    "type_acc": 0.9166666666666666,
+    "urg_acc": 0.8888888888888888,
+    "both_acc": 0.8055555555555556,
+    "urgent_recall": 0.75,
+    "false_alarm": 0
+  },
+  "v5_gemini": {
+    "n": 36,
+    "type_acc": 0.9722222222222222,
+    "urg_acc": 0.9722222222222222,
+    "both_acc": 0.9444444444444444,
+    "urgent_recall": 1.0,
+    "false_alarm": 1
+  },
+  "v5_human": {
+    "n": 20,
+    "type_acc": 0.7,
+    "urg_acc": 0.65,
+    "both_acc": 0.45,
+    "urgent_recall": 0.7777777777777778,
+    "false_alarm": 3
+  },
+  "v1_전체": {
+    "n": 92,
+    "type_acc": 0.8043478260869565,
+    "urg_acc": 0.7391304347826086,
+    "both_acc": 0.6304347826086957,
+    "urgent_recall": 0.8787878787878788,
+    "false_alarm": 10
+  },
+  "v1_gpt": {
+    "n": 36,
+    "type_acc": 0.8055555555555556,
+    "urg_acc": 0.7777777777777778,
+    "both_acc": 0.6388888888888888,
+    "urgent_recall": 0.8333333333333334,
+    "false_alarm": 3
+  },
+  "v1_gemini": {
+    "n": 36,
+    "type_acc": 0.9166666666666666,
+    "urg_acc": 0.8055555555555556,
+    "both_acc": 0.7777777777777778,
+    "urgent_recall": 1.0,
+    "false_alarm": 5
+  },
+  "v1_human": {
+    "n": 20,
+    "type_acc": 0.6,
+    "urg_acc": 0.55,
+    "both_acc": 0.35,
+    "urgent_recall": 0.7777777777777778,
+    "false_alarm": 2
+  },
+  "v1_기준단독_전체": {
+    "n": 92,
+    "type_acc": 0.8260869565217391,
+    "urg_acc": 0.7717391304347826,
+    "both_acc": 0.6521739130434783,
+    "urgent_recall": 0.8484848484848485,
+    "false_alarm": 8
+  },
+  "v1_기준단독_gpt": {
+    "n": 36,
+    "type_acc": 0.8055555555555556,
+    "urg_acc": 0.75,
+    "both_acc": 0.6111111111111112,
+    "urgent_recall": 0.75,
+    "false_alarm": 3
+  },
+  "v1_기준단독_gemini": {
+    "n": 36,
+    "type_acc": 0.9444444444444444,
+    "urg_acc": 0.8888888888888888,
+    "both_acc": 0.8333333333333334,
+    "urgent_recall": 1.0,
+    "false_alarm": 3
+  },
+  "v1_기준단독_human": {
+    "n": 20,
+    "type_acc": 0.65,
+    "urg_acc": 0.6,
+    "both_acc": 0.4,
+    "urgent_recall": 0.7777777777777778,
+    "false_alarm": 2
+  }
+}
