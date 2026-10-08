@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[oc]
+.DS_Store
+
+# 학습된 가중치 (크기 큼 · 개선 중) → 결과 지표(json · csv)와 meta.json만 올림
+*.keras
+*.joblib
+*.safetensors
+*.pt
+*.bin
+*.h5
+*.onnx
+*.done
